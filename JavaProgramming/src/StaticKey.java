@@ -1,9 +1,9 @@
 
 public class StaticKey {
 	
-	 static String Company;
+	  String Company;
 	
-	static 
+	 
 	{
 		System.out.println("inside static");
 		Company="mastercard";
@@ -13,8 +13,8 @@ public class StaticKey {
 		
 		
 		StaticKey k=new StaticKey();
-		Emp e=  k.new Emp(102, "a", Company);
-		Emp e1=  k.new Emp(132, "a3",Company);
+		Emp e=  k.new Emp(102, "a", k.Company);
+		Emp e1=  k.new Emp(132, "a3",k.Company);
 
 	}
 

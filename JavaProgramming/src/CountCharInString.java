@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 /*Given a string , you have to count the number of occurrences of each character in it. 
@@ -33,13 +36,17 @@ public class CountCharInString {
 		
 		/*below code To Find Duplicate Characters In A String */
 		Set <Character> dupchar= map.keySet();
+	
 		for(Character chardup:dupchar)
 		{
 			
 			if(map.get(chardup)> 1)
 					{
 				System.out.println(chardup +" "+map.get(chardup));
+			
 					}
+		
+		
 		}
 		
 		

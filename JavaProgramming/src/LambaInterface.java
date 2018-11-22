@@ -10,11 +10,11 @@ public class LambaInterface {
 	list.add(6);
 	list.add(7);
 	
-	for(int a:list)
+	/*for(int a:list)
 	{
 		sum=sum+a;
 		
-		}
+		}*/
 	list.forEach(n -> { if (n%2 == 0) System.out.println(n); });
 	System.out.print(sum);
 	}
